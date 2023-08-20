@@ -15,7 +15,10 @@ p = int(input('Введите произведение X и Y: '))
 # x = p / y
 
 # s - y = p / y
-s*y - y*y = p
-print(y)
+# s*y - y*y = p
 
+x = y - s
+y = p / x
+print(y)
+print(x)
 
