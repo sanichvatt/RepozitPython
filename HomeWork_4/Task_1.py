@@ -21,7 +21,7 @@ u = q1.union(q2)
 u = list(u)
 for i in range(len(u)):
     u[i] = int(u[i])
-
+"""
 minU = int(u[0])
 mini = 0
 u1 = list()
@@ -34,3 +34,5 @@ for i in range(l):
     u1.append(u[mini])
     u = u.pop(mini)
 print(u1)
+"""
+print(u)
